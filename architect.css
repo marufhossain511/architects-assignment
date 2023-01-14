@@ -1,0 +1,331 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Work+Sans:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* heading */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav>h3 {
+    margin-left: 228px;
+    margin-top: 50px;
+    width: 320px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav>ul {
+    width: 300px;
+    margin-top: 63px;
+    margin-right: 240px;
+
+}
+
+nv>ul>li {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Brand */
+.heading-brand {
+    width: 862px;
+    margin-left: 529px;
+    margin-top: 102px;
+
+}
+
+.brand-title {
+    width: 650px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.brand-description {
+    width: 765px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #727272;
+
+}
+
+.brand-button {
+    width: 180px;
+    height: 64px;
+    margin-left: 750px;
+    margin-top: 32px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #FF900E;
+}
+
+.brand-img {
+    width: 1340px;
+    height: 650px;
+    margin-left: 220px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+/* ------------
+     features
+     ------------ */
+.features-item {
+    display: flex;
+}
+
+.features-img {
+    margin-left: 300px;
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.15fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.features-img img {
+    width: 340px;
+    height: 340px;
+    border-radius: 8px;
+}
+
+.features-text-info {
+    margin-left: 73px;
+    margin-top: 287px;
+    width: 537px;
+}
+
+.features-title {
+    width: 468px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.span-1 {
+    color: #131313;
+}
+
+span {
+    color: #FF900E;
+}
+
+.features-description {
+    width: 537px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    color: #727272;
+}
+
+.features-button {
+    width: 180px;
+    height: 64px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 53px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+
+/* second banner */
+
+.banner-title {
+    width: 468px;
+    margin-left: 266px;
+    margin-top: 169px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.banner-description {
+    width: 586px;
+    margin-left: 240px;
+    margin-top: 24px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.second-banner-items {
+    display: flex;
+}
+
+.banner-text-items {
+    width: 586px;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.banner-text-title {
+    width: 252px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #131313;
+}
+
+.banner-text-description {
+    width: 514px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #727272;
+
+}
+
+.second-banner-img {
+    margin-left: 70px;
+    margin-top: -230px;
+}
+
+.second-banner-img img {
+    width: 800px;
+
+}
+
+.banner-button {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin-top: -700px;
+    width: 360px;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+
+
+@media screen and (max-width:480px) {
+    header {
+        background: none;
+    }
+
+    nav>h3 {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    nav>ul {
+        gap: 10px;
+        margin-right: -700px;
+        width: 500px;
+        margin-top: 58px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /* heading-brand */
+    .heading-brand {
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    .brand-title {
+        width: 550px;
+        font-size: 20px;
+    }
+
+    .brand-description {
+        width: 500px;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .brand-button {
+        margin-left: 310px;
+    }
+
+    .brand-img {
+        width: 1000px;
+        margin-left: 0;
+
+    }
+
+    /* features */
+    .features-item {
+        flex-direction: column;
+    }
+
+    .features-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-img img {
+        margin-left: -295px;
+        width: 800px;
+        height: auto;
+    }
+
+    .features-text-info {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .features-description {
+        width: 350px;
+    }
+
+    /* second banner */
+    .second-banner-items{
+        flex-direction: column;
+    }
+    .banner-text-items{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .banner-title{
+        margin-left:120px;
+    }
+    .banner-description{
+        margin-left: 120px;
+    }
+}
