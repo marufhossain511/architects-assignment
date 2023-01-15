@@ -291,7 +291,11 @@ span {
     margin-top: 45px;
 }
 
-.facts-title-1{
+.facts-items img:hover {
+    border: 3px solid aqua;
+}
+
+.facts-title-1 {
     width: 55px;
     margin-left: 93px;
     margin-top: 10px;
@@ -300,7 +304,8 @@ span {
     font-size: 45px;
     color: #424242;
 }
-.facts-title-2{
+
+.facts-title-2 {
     width: 55px;
     margin-left: 75px;
     margin-top: 10px;
@@ -309,7 +314,8 @@ span {
     font-size: 45px;
     color: #424242;
 }
-.facts-title-3{
+
+.facts-title-3 {
     width: 55px;
     margin-left: 88px;
     margin-top: 10px;
@@ -318,7 +324,8 @@ span {
     font-size: 45px;
     color: #424242;
 }
-.facts-title-4{
+
+.facts-title-4 {
     width: 55px;
     margin-left: 60px;
     margin-top: 10px;
@@ -337,6 +344,7 @@ span {
     font-size: 20px;
     color: #727272;
 }
+
 .facts-description-2 {
     width: 175px;
     margin-left: 35px;
@@ -346,6 +354,7 @@ span {
     font-size: 20px;
     color: #727272;
 }
+
 .facts-description-3 {
     width: 175px;
     margin-left: 40px;
@@ -355,6 +364,7 @@ span {
     font-size: 20px;
     color: #727272;
 }
+
 .facts-description-4 {
     width: 175px;
     margin-left: 65px;
@@ -365,14 +375,75 @@ span {
     color: #727272;
 }
 
+/* our sponsors */
+.sponsors-title {
+    width: 327px;
+    margin-left: 797px;
+    margin-top: 180px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsors-subtitle {
+    width: 542px;
+    margin-left: 690px;
+    margin-top: 24px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.sponsors-info-items {
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sponsor-items img {
+    width: 166px;
+
+}
+
+/* footer */
+.footer {
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-title {
+    position: absolute;
+    width: 650px;
+    margin-top: 40px;
+    margin-left: 410px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+
+}
+
 @media screen and (max-width:480px) {
+
     header {
         background: none;
     }
 
     nav>h3 {
         margin-left: 50px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     nav>ul {
@@ -406,7 +477,7 @@ span {
     }
 
     .brand-img {
-        width: 1000px;
+        width: 865px;
         margin-left: 0;
 
     }
@@ -451,5 +522,45 @@ span {
 
     .banner-description {
         margin-left: 120px;
+    }
+
+    /* facts info */
+    .fact-title {
+        margin-left: 50px;
+    }
+
+    .fact-description {
+        margin-left: 50px;
+
+    }
+
+    .facts-info-items {
+        flex-direction: column;
+        margin-left: 400px;
+    }
+
+    /* our sponsors */
+    .sponsors-title {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .sponsors-subtitle {
+        width: 600px;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .sponsors-info-items {
+        flex-direction: column;
+        margin-left: 450px;
+    }
+
+    .footer{
+        margin-left: 40px;
+        width: 800px;
+    }
+    .footer-title{
+        margin-left: 95px;
     }
 }
